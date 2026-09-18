@@ -1,0 +1,14 @@
+aws_region = "us-east-1"
+
+mandatory_tags = {
+  ManagedBy   = "AFT"
+  Environment = "production"
+  CostCenter  = "12345"
+}
+
+budget_limit_usd           = 2000
+budget_notification_emails = ["cloud-team@example.com"]
+
+enable_security_baseline = true
+enable_config_baseline   = true
+
